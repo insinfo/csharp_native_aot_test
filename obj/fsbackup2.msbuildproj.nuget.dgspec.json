@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\MyCsharpProjects\\fsbackup2\\fsbackup2.msbuildproj": {}
+  },
+  "projects": {
+    "C:\\MyCsharpProjects\\fsbackup2\\fsbackup2.msbuildproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MyCsharpProjects\\fsbackup2\\fsbackup2.msbuildproj",
+        "projectName": "fsbackup2",
+        "projectPath": "C:\\MyCsharpProjects\\fsbackup2\\fsbackup2.msbuildproj",
+        "packagesPath": "C:\\Users\\isaque\\.nuget\\packages\\",
+        "outputPath": "C:\\MyCsharpProjects\\fsbackup2\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\isaque\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.DotNet.ILCompiler": {
+              "target": "Package",
+              "version": "[7.0.0-*, )"
+            },
+            "Peachpie.App": {
+              "target": "Package",
+              "version": "[1.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-preview.2.22153.17\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+<Project Sdk="Peachpie.NET.Sdk/1.0.9">
+  
+  <PropertyGroup>
+    <OutputType>exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <StartupObject>program.php</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="**/*.php" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.DotNet.ILCompiler" Version="7.0.0-*" />
+  </ItemGroup>
+
+</Project>

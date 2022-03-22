@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "fsbackup2", "fsbackup2.msbuildproj", "{D3D6A158-D7D4-4A7E-B276-C8C97B738725}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3D6A158-D7D4-4A7E-B276-C8C97B738725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3D6A158-D7D4-4A7E-B276-C8C97B738725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3D6A158-D7D4-4A7E-B276-C8C97B738725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3D6A158-D7D4-4A7E-B276-C8C97B738725}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5557C9C2-4D5E-44A5-8E76-164060305EE3}
+	EndGlobalSection
+EndGlobal
