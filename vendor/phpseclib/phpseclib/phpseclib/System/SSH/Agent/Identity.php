@@ -201,7 +201,7 @@ class Identity implements PrivateKey
                     $expectedHash = 'sha512';
             }
             if ($hash != $expectedHash) {
-                throw new UnsupportedAlgorithmException('The only supported hash for ' . self::$curveAliases[$key->getCurve()] . ' is ' . $expectedHash);
+                throw new UnsupportedAlgorithmException('The only supported hash for ' . self::$curveAliases[$this->key->getCurve()] . ' is ' . $expectedHash);
             }
         }
         if ($this->key instanceof DSA) {
